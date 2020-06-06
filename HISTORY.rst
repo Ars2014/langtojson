@@ -6,3 +6,9 @@ History
 ------------------
 
 * First release on PyPI.
+
+0.1.1 (2020-06-06)
+------------------
+
+* Removed python 3.5 from supported versions
+* Removed useless test files
