@@ -27,7 +27,7 @@ def main(files: List[Tuple[TextIO, Path]]):
         data = parse_lang_file(infile)
 
         new_path = path.with_suffix(".json")
-        with new_path.open("w") as outfile:
+        with new_path.open("w", encoding="utf-8") as outfile:
             write_to_json(data, outfile)
 
     return 0

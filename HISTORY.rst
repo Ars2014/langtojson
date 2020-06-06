@@ -13,3 +13,8 @@ History
 * Removed python 3.5 from supported versions
 * Removed useless test files
 * Added encoding
+
+0.1.2 (2020-06-06)
+------------------
+
+* Fix output files utf-8
