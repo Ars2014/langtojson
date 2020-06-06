@@ -18,3 +18,8 @@ History
 ------------------
 
 * Fix output files utf-8
+
+0.1.3 (2020-06-06)
+------------------
+
+* Add ensure_ascii=false

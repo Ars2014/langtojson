@@ -29,4 +29,4 @@ def write_to_json(data: Dict[str, str], file: TextIO):
     """
     Write data to json file
     """
-    json.dump(data, file, indent=2)
+    json.dump(data, file, indent=2, ensure_ascii=False)
