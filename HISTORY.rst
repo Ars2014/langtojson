@@ -12,3 +12,4 @@ History
 
 * Removed python 3.5 from supported versions
 * Removed useless test files
+* Added encoding

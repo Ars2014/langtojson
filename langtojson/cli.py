@@ -20,7 +20,7 @@ def validate_input(ctx: click.core.Context, param: click.core.Argument, values: 
 
 
 @click.command()
-@click.argument("files", type=click.File("r"), nargs=-1, callback=validate_input)
+@click.argument("files", type=click.File("r", encoding="utf-8"), nargs=-1, callback=validate_input)
 def main(files: List[Tuple[TextIO, Path]]):
     """Console script for langtojson."""
     for infile, path in files:
